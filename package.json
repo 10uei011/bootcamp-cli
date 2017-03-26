@@ -1,0 +1,34 @@
+{
+  "name": "bootcamp-cli",
+  "version": "0.0.1",
+  "description": "A cli tool for generating TTN Bootcamp boilerplate",
+  "engines": {
+    "node": ">=4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/10uei011/bootcamp-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "boilerplate",
+    "mongo"
+  ],
+  "author": "dipesh",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bugs": {
+    "url": "https://github.com/10uei011/bootcamp-cli/issues"
+  },
+  "homepage": "https://github.com/10uei011/bootcamp-cli/#readme",
+  "bin": {
+    "bootcamp": "./bin/main.js"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "elegant-spinner": "^1.0.1",
+    "git-shallow-clone": "0.0.2",
+    "log-update": "^1.0.2",
+    "shelljs": "^0.7.7"
+  }
+}
